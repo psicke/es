@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 15px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header,
+footer {
+  background: linear-gradient(65deg, #008cff, #003e70, #003e70);
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  color: white;
+}
+
+header,
+nav,
+main,
+footer {
+  max-width: 850px;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+h1,
+h3 {
+  font-size: 1.1rem;
+}
+
+/*---------------- Header ----------------*/
+header img {
+    max-width: 100px;
+    max-height: 100px;
+    border-radius: 50%;
+}
+
+.main-header {
+    top: 15px;
+    margin: 15px;
+}
+
+/* ------------- Menu --------------------*/
+.menu-bar {
+  /*display: none;*/
+  font-size: 34px;
+  color: white;
+}
+
+.menu-bar-show {
+  display: block;
+}
+
+nav {
+  display: none;
+  background: #003e70;
+  text-align: center;
+  box-shadow: 0 2px 15px #003e70;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+nav ul li a {
+  display: block;
+  color: #fff;
+  text-align: center;
+  padding: 0.75rem;
+  text-decoration: none;
+  font-size: 0.95rem;
+}
+
+nav a:hover {
+  background-color: #008cff;
+  color: black;
+}
+
+/* -------------- Cards ---------------------*/
+
+fieldset {
+  border: 2px solid white;
+  background-color: #80808028;
+  border-radius: 10px;
+}
+
+fieldset:hover {
+  border-color: #003e70;
+  transition: 1.15s;
+}
