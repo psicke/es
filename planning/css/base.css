@@ -1,3 +1,10 @@
+:root {
+    --main-bg-color: linear-gradient(65deg, #008cff, #003e70, #003e70);
+    --second-color: #003e70;
+    --third-color: #008cff;
+    --card-bg-color: #80808028;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -9,9 +16,8 @@ body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-header,
-footer {
-  background: linear-gradient(65deg, #008cff, #003e70, #003e70);
+header {
+  background: var(--main-bg-color);
   display: flex;
   justify-content: space-between;
   padding: 10px;
@@ -51,15 +57,16 @@ header img {
   color: white;
 }
 
-.menu-bar-show {
-  display: block;
-}
 
 nav {
-  display: none;
-  background: #003e70;
-  text-align: center;
-  box-shadow: 0 2px 15px #003e70;
+    display: none;
+    background: var(--second-color);
+    text-align: center;
+    box-shadow: 0 2px 15px var(--second-color);
+}
+
+.menu-bar-show {
+  display: block;
 }
 
 nav ul {
@@ -79,7 +86,7 @@ nav ul li a {
 }
 
 nav a:hover {
-  background-color: #008cff;
+  background-color: var(--third-color);
   color: black;
 }
 
@@ -87,11 +94,20 @@ nav a:hover {
 
 fieldset {
   border: 2px solid white;
-  background-color: #80808028;
+  background-color: var(--card-bg-color);
   border-radius: 10px;
 }
 
 fieldset:hover {
-  border-color: #003e70;
+  border-color: var(--second-color);
   transition: 1.15s;
+}
+
+/*-------------- Foot -----------------------*/
+
+footer {
+    text-align: center;
+    background: var(--main-bg-color);
+    color: white;
+    padding: 15px;
 }
