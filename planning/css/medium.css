@@ -1,0 +1,8 @@
+@media only screen and (min-width: 32.5em) {
+    header,
+    nav,
+    main,
+    footer {
+        border-radius: 10px;
+    }
+}

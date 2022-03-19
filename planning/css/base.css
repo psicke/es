@@ -30,7 +30,11 @@ main,
 footer {
   max-width: 850px;
   margin: 0 auto;
-  border-radius: 10px;
+  border-radius: 5px 5px 0 0;
+}
+
+nav {
+  border-radius: 0 0 5px 5px;
 }
 
 h1,
@@ -102,6 +106,21 @@ fieldset:hover {
   border-color: var(--second-color);
   transition: 1.15s;
 }
+/*-------------- Logo -----------------------*/
+
+.sect3 {
+  width: 100%;
+}
+
+.sect3 img {
+  width: 100%;
+}
+.sect3 figure {
+  width: 250px;
+  height: 250px;
+  margin: auto;
+}
+
 
 /*-------------- Foot -----------------------*/
 
