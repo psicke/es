@@ -28,3 +28,17 @@
 .color-body {
     background-color: #93c4fd8a;
 }
+
+.color-body h1 {
+    text-align: left;
+}
+.color-body h2 {
+    text-align: center;
+}
+.color-body .sample-heading {
+    text-align: left;
+}
+
+.color-body h3 {
+    text-align: right;
+}
