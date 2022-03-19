@@ -1,0 +1,41 @@
+:root {
+    --bg-prime-color: linear-gradient(to right, #d8b4fe, #d8b4fe, #60a5fa);
+    
+    --bg-purple-300: #d8b4fe;
+    --bg-purple-400: #c084fc;
+    
+    --bg-cyan-300: #67e8f9;
+    --bg-cyan-400: #22d3ee;
+    
+    --bg-blue-300: #93c5fd;
+    --bg-blue-400: #60a5fa;
+    
+    --bg-dark-theme: #000000d3;
+}
+
+.heading {
+    background: var(--bg-prime-color);
+}
+
+.color-nav {
+    background-color: var(--bg-blue-300);
+}
+
+.color-footer {
+    background-color: #d8b4fe;
+}
+
+.color-body {
+    background-color: #93c4fd8a;
+}
+
+
+@media (prefers-color-scheme: dark) {
+    .day.dark-scheme   { background:  #333; color: white; }
+    .night.dark-scheme { background: var(--bg-dark-theme); color:  #ddd; }
+}
+
+@media (prefers-color-scheme: light) {
+    .day.light-scheme   { background: white; color:  var(--bg-dark-theme); }
+    .night.light-scheme { background:  #eee; color: black; }
+  }
