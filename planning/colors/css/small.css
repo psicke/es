@@ -1,7 +1,7 @@
 :root {
     --bg-prime-color: linear-gradient(to right, #d8b4fe, #d8b4fe, #60a5fa);
     
-    --bg-purple-300: #d8b4fe;
+    --bg-purple-300: #d8b4fe73;
     --bg-purple-400: #c084fc;
     
     --bg-cyan-300: #67e8f9;
@@ -42,3 +42,9 @@
 .color-body h3 {
     text-align: right;
 }
+
+@media (prefers-color-scheme: dark) {
+    h2 {
+      color: white;
+    }
+  }
