@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
+
+main h1,
+main h2 {
+  font-family: "Ubuntu", sans-serif;
+}
+fieldset {
+    text-align: center;
+}
+
+.sect1 h2 {
+    font-size: 30px;
+}
+
+.sect2 h2{
+    font-size: 25px;
+}
+
+.sect3 h2{
+    font-size: 20px;
+}
+
+.sect4 h2{
+    font-family: 16px;
+}
+
+.sect4 p {
+    font-family: sans-serif;
+    font-family: 16px;
+}
