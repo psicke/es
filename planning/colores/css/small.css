@@ -28,14 +28,3 @@
 .color-body {
     background-color: #93c4fd8a;
 }
-
-
-@media (prefers-color-scheme: dark) {
-    .day.dark-scheme   { background:  #333; color: white; }
-    .night.dark-scheme { background: var(--bg-dark-theme); color:  #ddd; }
-}
-
-@media (prefers-color-scheme: light) {
-    .day.light-scheme   { background: white; color:  var(--bg-dark-theme); }
-    .night.light-scheme { background:  #eee; color: black; }
-  }
