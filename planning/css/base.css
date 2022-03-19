@@ -54,7 +54,7 @@ header img {
     margin: 15px;
 }
 
-/* ------------- Menu --------------------*/
+/* ------------- Menu Navigation Bar--------------------*/
 .menu-bar {
   /*display: none;*/
   font-size: 34px;
@@ -108,14 +108,14 @@ fieldset:hover {
 }
 /*-------------- Logo -----------------------*/
 
-.sect3 {
+.logo {
   width: 100%;
 }
 
-.sect3 img {
+.logo img {
   width: 100%;
 }
-.sect3 figure {
+.logo figure {
   width: 250px;
   height: 250px;
   margin: auto;
