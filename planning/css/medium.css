@@ -9,6 +9,8 @@
     main {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
+        padding: 15px 0 15px 0;
+        grid-gap: 10px;
     }
     
     /* Name */
