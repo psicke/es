@@ -80,7 +80,7 @@ header .menu-bars {
 .menu {
     background-color: var(--second-color);
 
-    display: none;
+    visibility: hidden;
     position: fixed;
     top: 75px;
     left: 0;
@@ -111,18 +111,19 @@ header .menu-bars {
 }
 
 .show-menu {
-    display: block;
+    visibility: visible;
 }
 
 /* ------------------ Main Banner style -----------------------*/
 
-/*
+
 main {
-    margin-top: 70px;
+    margin-top: 95px;
 }
-*/
+
 main .main-banner {
     background-color: red;
+    height: 240px;
 }
 
 main .tittle-banner {
