@@ -282,3 +282,28 @@ main .content:nth-child(3) .card-banner {
     padding-bottom: 10px;
     border-radius: 0 0 10px 10px;
 }
+
+main .content:nth-child(3) .card-banner h2,
+main .content:nth-child(3) .card-banner p {
+    margin: 25px;
+}
+
+/* ----- ------ Cards DOM Java Script ----- ----- -----    */
+
+main .app-cards {
+    border: 0.2px #8080805b solid;
+    border-radius: 10px;
+    width: 90vw;
+    margin: 55px auto;
+}
+main .app-cards .card {
+    display: flex;
+}
+main .app-cards .card img {
+    width: 40vw;
+    height: 250px;
+    border-radius: 10px;
+}
+main .app-cards .card-info {
+    margin: 25px;
+}
