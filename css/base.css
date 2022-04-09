@@ -262,6 +262,7 @@ main .devider-bottom {
 main .content:nth-child(3){
     background-color: var(--second-color);
     padding-bottom: 65px;
+    width: 100%;
 }
 
 main .content:nth-child(3) figure {
