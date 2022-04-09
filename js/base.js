@@ -7,7 +7,9 @@ const Base = {
     menu: () => {
         menuBar.addEventListener("click", () => {
             menu.classList.toggle("show-menu")
-            header.classList.toggle("show-colors")
+            if (window.scrollY < 200){
+                header.classList.toggle("show-colors")
+            }
         })
     },
     scroll: () => {
