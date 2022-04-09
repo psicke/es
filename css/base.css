@@ -25,9 +25,6 @@ h1, h2, h3 {
 }
 
 
-main .content img {
-    object-fit: cover;
-}
 /* -------------------- Header ----------------------*/
 
 .logo-side figure {
@@ -37,6 +34,7 @@ main .content img {
 }
 
 .logo-side figure img {
+    object-fit: cover;
     width: 100%;
     border-radius: 50%;
     padding: 3px;
@@ -213,6 +211,7 @@ main .content {
 /* ----- ---- First Section ---- ------ */
 
 main .content:nth-child(2) img{
+    object-fit: cover;
     width: 100%;
     height: 100%;
     border-radius: 10px;
@@ -273,6 +272,7 @@ main .content:nth-child(3) figure {
 }
 
 main .content:nth-child(3) figure img {
+    object-fit: cover;
     width: 100%;
     height: 100%;
     border-radius: 10px 10px 0 0;
@@ -305,6 +305,7 @@ main .app-cards .card {
     display: flex;
 }
 main .app-cards .card img {
+    object-fit: cover;
     width: 40vw;
     height: 250px;
     border-radius: 10px 0 0 10px;
@@ -332,6 +333,7 @@ main .serve-info figure {
 }
 
 main .serve-info figure img {
+    object-fit: cover;
     width: 100%;
     height: 100%;
     border-radius: 10px 10px 0 0;
@@ -348,4 +350,37 @@ main .serve-info .card-banner {
 main .serve-info h2,
 main .serve-info p{
     margin: 25px;
+}
+
+main .contact {
+    width: 100vw;
+    height: 350px;
+    position: relative;
+}
+
+main .contact figure {
+    width: 100vw;
+    height: 100%;
+}
+
+main .contact img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+main .cantact-info h2{
+    font-size: 2.3rem;
+}
+
+main .cantact-info {
+    position: absolute;
+    width: 350px;
+    height: 100px;
+    top: 45%;
+    left: 0;
+    right: 0;
+
+    margin: auto;
+    text-align: center;
 }
