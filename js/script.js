@@ -1,7 +1,5 @@
-/* --- Responsive menu ---*/
-const menu = document.querySelector(".menu")
-const menuBar = document.querySelector(".menu-bars")
+import Base from "./base.js";
 
-menuBar.addEventListener("click", () => {
-    menu.classList.toggle("show-menu")
-})
+Base.menu()
+Base.scroll()
+Base.lazzy()
