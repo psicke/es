@@ -53,6 +53,24 @@ const Base = {
             imgObserver.observe(image);
         })
     },
+    footer: () => {
+        const footer = document.querySelector("footer");
+        const jeddevcenter = "https://jedlarios.github.io/jeddevcenter/index-es.html";
+        let update = document.lastModified;
+
+        footer.innerHTML = `
+
+            <ul>
+                <li><a href="">Términos y <br>Condiciones</a></li>
+                <li><a href="">Servicios</a></li>
+                <li><a href="">Contáctanos</a></li>
+            </ul>
+            <div class="socials"></div>
+            <div class="bottom">
+                <span>&copy Copyright 2022 | <a href="${jeddevcenter}">Made By Jared Larios</a> | Actualizado: ${update} </span> 
+            </div>
+        `;
+    },
 }
 
 export default Base

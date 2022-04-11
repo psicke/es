@@ -386,3 +386,43 @@ main .cantact-info {
     margin: auto;
     text-align: center;
 }
+
+/* ---- ---- --- Footer --- -- -- --- --- */
+
+footer a {
+    text-decoration: none;
+    color: black;
+}
+
+footer ul {
+    margin: 45px 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+footer li {
+    overflow: hidden;
+    display: flex;
+    margin: auto;
+}
+
+footer .socials {
+    border-bottom: 1px #80808042 solid;
+}
+
+footer .bottom {
+    width: 100;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    width: 70vw;
+    margin: 35px auto;
+}
+
+footer .bottom span, 
+footer .bottom a {
+    color: #808080a9;
+}
