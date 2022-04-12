@@ -330,11 +330,11 @@ main .app-cards .card-info h2{
 
 /*  ------- ---- Content ----  ---- */
 
-main .serve-info{
-    padding-bottom: 65px;
+main .servs .serve-info{
+    margin: 25px 0;
 }
 
-main .serve-info figure {
+main .servs .serve-info figure {
     border: 0.5px #8080805b solid;
     border-radius: 10px 10px 0 0;
     width: 90vw;
@@ -342,14 +342,14 @@ main .serve-info figure {
     margin: auto;
 }
 
-main .serve-info figure img {
+main .servs .serve-info figure img {
     object-fit: cover;
     width: 100%;
     height: 100%;
     border-radius: 10px 10px 0 0;
 }
 
-main .serve-info .card-banner {
+main .servs .serve-info .card-banner {
     border: 0.5px #8080805b solid;
     width: 90vw;
     height: 150px;
@@ -357,11 +357,13 @@ main .serve-info .card-banner {
     border-radius: 0 0 10px 10px;
 }
 
-main .serve-info h2,
+main .servs .serve-info h2,
 main .serve-info p{
     margin: 25px;
 }
 
+
+/*   --- -- -- Contact Info --- -- -- --*/
 main .contact {
     width: 100%;
     height: 350px;

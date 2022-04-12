@@ -1,0 +1,74 @@
+@media only screen and (min-width: 34.5em) {
+    :root {
+        --prime-color: linear-gradient(to right, #d8b4fe, #d8b4fe, #60a5fa);
+        --second-color: #93c5fd;
+        --third-color: #d8b4fe;
+        --forth-color: #93c4fd8a;
+        --primus-color: linear-gradient(30deg, #d8b4fe, #60a5fa, #60a5fa, #d8b4fe);
+    }
+
+    /* -- -- -- -- First Section -- -- -- ---*/
+    main .content:nth-child(2) div h2,
+    main .content:nth-child(2) div p {
+        max-width: 300px;
+        margin: auto;
+    }
+
+    /* ----- ---- Second Section ---- ------ */
+    main .content:nth-child(3) .card-med {
+        display: flex;
+        margin: 35px;
+    }
+
+    main .content:nth-child(3) figure {
+        margin: 45px 0;
+        padding-top: 0;
+    }
+    main .content:nth-child(3) figure img {
+        border-radius: 10px;
+    }
+    main .content:nth-child(3) .card-banner {
+        padding-top: 0px;
+        padding-bottom: 0px;
+        border-radius: 0 10px 10px 0;
+    }
+
+    /* ---- ---- ---  Content Services info --- --- ---- -- -*/
+    
+    main .servs {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+        grid-gap: 15px;
+        margin: 25px;
+    }
+    main .servs .serve-info{
+        margin: auto;
+    }
+    main .serve-info{
+        width: 350px;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    main .servs-title {
+        text-align: center;
+    }
+    
+    main .serve-info figure {
+        max-width: 350px;
+    }
+    
+    main .serve-info .card-banner {
+        max-width: 350px;
+    }
+    
+    main .serve-info h2,
+    main .serve-info p{
+        margin: 15px;
+    }
+
+    footer ul {
+        max-width: 65vw;
+        margin: 45px auto;
+    }
+}
