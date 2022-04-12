@@ -67,9 +67,15 @@ header {
 }
 
 header .menu-bars {
+    transition: 0.5s;
     font-size: 35px;
     margin: auto 25px;
     padding: 15px;
+}
+
+header .menu-toggled {
+    transition: 0.5s;
+    transform: rotate(+90deg);
 }
 
 .show-colors {
