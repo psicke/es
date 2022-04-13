@@ -160,6 +160,7 @@ main .tittle-banner {
     padding: 10px;
     border-radius: 35px;
     width: 70%;
+    max-width: 450px;
 
     z-index: 3;
 }
