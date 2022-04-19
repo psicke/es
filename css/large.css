@@ -1,0 +1,98 @@
+@media only screen and (min-width: 47.7em) {
+    :root {
+        --prime-color: linear-gradient(to right, #d8b4fe, #d8b4fe, #60a5fa);
+        --second-color: #93c5fd;
+        --third-color: #d8b4fe;
+        --forth-color: #93c4fd8a;
+        --primus-color: linear-gradient(30deg, #d8b4fe, #60a5fa, #60a5fa, #d8b4fe);
+    }
+    /*   ---- ---- ---- ---- Menu Bars ---- ---- ---- ---- */
+    header {
+        max-width: 1380px;
+        margin: auto;
+    }
+
+    main {
+        max-width: 1380px;
+        margin: auto;
+    }
+
+    .menu-bars {
+        display: none;
+    }
+    .menu {
+        background-color: #ff000000;
+        visibility: visible;
+
+        top: 0px;
+        max-width: 1380px;
+        margin: 10px auto;
+        z-index: 5;
+        text-align: right;
+    }
+    .menu li {
+        display: inline-flex;
+        text-align: center;
+        margin: 10px;
+        padding: 0;
+    }
+    .menu ul li:hover {
+        background: #ff000000;
+    }
+    .menu ul li:hover a {
+        color:#3c7ac0;
+    }
+
+    /* --- Main Banner --- */ 
+    main .main-banner {
+        height: 460px;
+    }
+    main .socials {
+        bottom: 140px;
+        font-size: 38px;
+        max-width: 160px;
+    }
+    main .socials span i {
+        padding: 8px;
+    }
+
+    /* --- --- --- first content --- --- --- -- */
+    main .content:nth-child(2) {
+        display: flex;
+        margin: 145px auto;
+    }
+    main .content:nth-child(2) figure{
+        width: 60%;
+    }
+
+    /* -- --- --- ---- DOM --- --- --- --- --- */
+    main .app-cards {
+        border: 0.2px #8080805b solid;
+        border-radius: 10px;
+        width: 70%;
+        height: 250px;
+        margin: 55px auto;
+    }
+    main .app-cards .card {
+        display: flex;
+    }
+    main .app-cards .card img {
+        object-fit: cover;
+        width: 350px;
+        height: 250px;
+        border-radius: 10px 0 0 10px;
+    }
+    main .app-cards .card-info {
+        margin: 25px;
+    }
+    
+    main .app-cards .card-info h2{
+        margin: 0 0 15px 0;
+    }
+
+    /* --- --- --- --- Footer --- --- --- --- */
+    footer .bottom {
+        width: 560px;
+    }
+    
+}
