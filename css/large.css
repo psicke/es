@@ -8,12 +8,21 @@
     }
     /*   ---- ---- ---- ---- Menu Bars ---- ---- ---- ---- */
     header {
-        max-width: 1380px;
         margin: auto;
     }
 
+    .logo-side {
+        max-width: 1180px;
+        width: 100%;
+        margin: auto;
+    }
+
+    .logo-side h2 {
+        padding-right: 85%;
+    }
+
     main {
-        max-width: 1380px;
+        max-width: 1180px;
         margin: auto;
     }
 
@@ -25,7 +34,7 @@
         visibility: visible;
 
         top: 0px;
-        max-width: 1380px;
+        max-width: 1180px;
         margin: 10px auto;
         z-index: 5;
         text-align: right;
@@ -63,6 +72,10 @@
     }
     main .content:nth-child(2) figure{
         width: 60%;
+    }
+/* --- --- --- Second content --- --- --- -- */
+    main .content:nth-child(3) figure {
+        max-width: 550px;
     }
 
     /* -- --- --- ---- DOM --- --- --- --- --- */
